@@ -1,0 +1,18 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+$color: rgb(13, 112, 224);
+
+
+
+@mixin borde-redondeado($color) {
+    background-color: $color;
+  }
+
+div{
+    @include borde-redondeado($color); // Llama al mixin con un radio de 5px
+    
+   
+}
+  
+  
+  
