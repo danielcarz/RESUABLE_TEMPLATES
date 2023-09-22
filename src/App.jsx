@@ -2,8 +2,8 @@ import {BrowserRouter} from "react-router-dom"
 
 import './SASS/index.scss';
 
-//components
-import { PageOne } from "./ROUTES/01-PageOne";
+//Routes Handler
+import { RoutesHandler } from "./ROUTES/RoutesHandler";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
    <BrowserRouter>
-      <PageOne></PageOne>
+      <RoutesHandler></RoutesHandler>
    </BrowserRouter>
   )
 }
