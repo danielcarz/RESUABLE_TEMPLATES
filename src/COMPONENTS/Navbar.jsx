@@ -7,7 +7,7 @@ export const Navbar = () => {
     return(
         <nav>
             <ul>
-                <NavLink to={"/two"}>PageOne</NavLink>
+                <NavLink to={"/"}>PageOne</NavLink>
             </ul>
         </nav>
     )

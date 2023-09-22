@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
 //components
-import {Navbar} from './'
+import { UserProvider ,Navbar} from './'
 
 //Routes
 import {PageOne } from './';
@@ -11,18 +11,22 @@ export const RoutesHandler = () => {
 
 
     return(
-        <BrowserRouter>
+        <UserProvider>
+            <BrowserRouter>
 
-            <Navbar></Navbar>
+                <Navbar></Navbar>
 
-            <Routes>
-                <Route path="/" element={<PageOne></PageOne>}></Route>
+                <Routes>
+                    <Route path="/" element={<PageOne></PageOne>}></Route>
 
-                <Route path="*" element={<PageOne></PageOne>}></Route>
-            </Routes>
+                    <Route path="*" element={<PageOne></PageOne>}></Route>
+                </Routes>
 
 
-        </BrowserRouter>
+            </BrowserRouter>
+
+        </UserProvider>
+       
         
     )
 }
