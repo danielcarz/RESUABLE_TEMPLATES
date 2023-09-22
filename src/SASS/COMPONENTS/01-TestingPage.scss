@@ -1,0 +1,38 @@
+//VARIABLES (it musb be in the first position)
+@use './Variables' as *;
+
+//MEDIA
+@import './MEDIA_QUERIES/MediaQueries.scss';
+
+
+
+@mixin styles_phone () {
+  background-color: yellow;
+  
+}
+
+@mixin styles_tablets () {
+  background-color: blue; 
+}
+
+@mixin styles_desktop () {
+  background-color: rgb(238, 85, 15);
+}
+
+
+
+
+.testingPage{
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}

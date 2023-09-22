@@ -1,7 +1,4 @@
-//VARIABLES
-@use './Variables' as *;
-
-
+//bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 //MEDIA
@@ -10,41 +7,5 @@
 
 
 
-
-$color: rgb(13, 112, 224);
-/* $media_phone: 480;
-$media_tablet: 820;
-$media_desktop: 1024; */
-
-@mixin styles_phone () {
-  background-color: #f56709;
-  
-}
-
-@mixin styles_tablets () {
-  background-color: blue; 
-}
-
-@mixin styles_desktop () {
-  background-color: red;
-}
-
-
-
-
-.testingPage{
-  @include media-query($media_phone){
-    @include styles_phone();
-  }
-
-  @include media-query($media_tablet){
-    @include styles_tablets();
-  }
-
-  @include media-query($media_desktop){
-    @include styles_desktop();
-  }
-
-}
   
   

@@ -1,7 +1,7 @@
 import React from "react";
 
 //styles
-import './SASS/index.scss';
+import './SASS/COMPONENTS/01-TestingPage.scss';
 
 export const TestingPage = () => {
 
