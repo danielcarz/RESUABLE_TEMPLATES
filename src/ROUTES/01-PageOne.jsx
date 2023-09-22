@@ -1,9 +1,9 @@
 import React from "react";
 
 //styles
-import './SASS/COMPONENTS/01-TestingPage.scss';
+import '../SASS/COMPONENTS/01-PageOne.scss';
 
-export const TestingPage = () => {
+export const PageOne = () => {
 
 
     return(

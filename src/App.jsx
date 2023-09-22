@@ -3,7 +3,7 @@ import {BrowserRouter} from "react-router-dom"
 import './SASS/index.scss';
 
 //components
-import { TestingPage } from "./01-TestingPage";
+import { TestingPage as PageOne } from "./ROUTES/01-PageOne";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
    <BrowserRouter>
-      <TestingPage></TestingPage>
+      <PageOne></PageOne>
    </BrowserRouter>
   )
 }
