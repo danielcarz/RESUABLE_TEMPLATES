@@ -1,9 +1,12 @@
 import React, { Children } from "react";
 
-const Layout = ({children}) => {
+//styles
+import '../../SASS/COMPONENTS/REUSABLE_COMPONENTS/Layout.scss';
+
+export const Layout = ({children}) => {
 
 
     return(
-        <div>{Children}</div>
+        <div className="layoutContainer" >{children}</div>
     )
 }

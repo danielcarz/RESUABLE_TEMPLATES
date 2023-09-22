@@ -1,8 +1,8 @@
 //VARIABLES (it musb be in the first position)
-@use './Variables' as *;
+@use '../Variables' as *;
 
 //MEDIA
-@import './MEDIA_QUERIES/MediaQueries.scss';
+@import '../MEDIA_QUERIES/MediaQueries.scss';
 
 
 
@@ -16,13 +16,13 @@
 }
 
 @mixin styles_desktop () {
-  /* background-color: rgb(238, 85, 15); */
+  background-color: rgb(120, 241, 6);
 }
 
 
 
 
-.testingPage{
+.layoutContainer{
   @include media-query($media_phone){
     @include styles_phone();
   }

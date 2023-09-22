@@ -3,7 +3,7 @@ import {BrowserRouter} from "react-router-dom"
 import './SASS/index.scss';
 
 //components
-import { TestingPage as PageOne } from "./ROUTES/01-PageOne";
+import { PageOne } from "./ROUTES/01-PageOne";
 
 
 function App() {
