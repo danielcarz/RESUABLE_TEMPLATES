@@ -3,6 +3,8 @@ import React from "react";
 //styles
 import '../SASS/COMPONENTS/01-PageOne.scss';
 
+//components
+
 export const PageOne = () => {
 
 
