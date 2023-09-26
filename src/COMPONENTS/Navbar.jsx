@@ -19,8 +19,8 @@ export const Navbar = () => {
     return(
         <nav>
             <ul>
-                <NavLink to={"/"}  activeclassName="activate">PageOne</NavLink>
-                <NavLink to={"/two"} className={() => {console.log('hello class')}}>PageTWO</NavLink>
+                <NavLink to={"/"}  activeclassName="activate">Marvel</NavLink>
+                <NavLink to={"/two"} className={() => {console.log('hello class')}}>HEROES</NavLink>
             </ul>
         </nav>
     )
