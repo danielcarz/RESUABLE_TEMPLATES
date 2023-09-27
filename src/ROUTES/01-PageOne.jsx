@@ -8,13 +8,13 @@ import { Layout } from "../COMPONENTS/LAYOUT/Layout";
 import {UserContext} from './index'
 //hooks
 //import { useGetTime } from "../COMPONENTS/CUSTOM_HOOKS/01-DateTime"; countDown
-import { useGetInfoFetch } from "../COMPONENTS/CUSTOM_HOOKS/02-GetInfoFetch";
+import { useGetInfoByProp } from "../COMPONENTS/CUSTOM_HOOKS/03-FilterData";
 
 export const PageOne = () => {
 
     const context = useContext(UserContext);
 
-    const {info} = useGetInfoFetch();
+    console.log(useGetInfoByProp('Goat'));
     
     
 
