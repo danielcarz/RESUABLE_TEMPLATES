@@ -6,7 +6,7 @@ FREE MEAL:
 
 */
 
-export const getInfo = async() => {
+export const getFetchInfo = async() => {
 
     const freeMealCategories = "https://www.themealdb.com/api/json/v1/1/list.php?c=list"
 
@@ -14,8 +14,10 @@ export const getInfo = async() => {
     
 
     const data = await response.json();
-    const {meals} = data
-    console.log(meals)
+    const {meals} = data;
+    
+
+    return meals
     
     
     

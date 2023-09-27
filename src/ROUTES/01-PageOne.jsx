@@ -8,13 +8,15 @@ import { Layout } from "../COMPONENTS/LAYOUT/Layout";
 import {UserContext} from './index'
 //hooks
 //import { useGetTime } from "../COMPONENTS/CUSTOM_HOOKS/01-DateTime"; countDown
-import {getInfo} from '../COMPONENTS/CUSTOM_HOOKS/FETCH/01-FreeMealApi';
+import { useGetInfoFetch } from "../COMPONENTS/CUSTOM_HOOKS/02-GetInfoFetch";
 
 export const PageOne = () => {
 
     const context = useContext(UserContext);
 
-    getInfo();
+    const {info} = useGetInfoFetch();
+    
+    
 
     //countDown
     /* const { formatTiempoRestante } = useGetTime();
