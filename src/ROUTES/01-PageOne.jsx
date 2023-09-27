@@ -8,10 +8,13 @@ import { Layout } from "../COMPONENTS/LAYOUT/Layout";
 import {UserContext} from './index'
 //hooks
 //import { useGetTime } from "../COMPONENTS/CUSTOM_HOOKS/01-DateTime"; countDown
+import {getInfo} from '../COMPONENTS/CUSTOM_HOOKS/FETCH/01-FreeMealApi';
 
 export const PageOne = () => {
 
     const context = useContext(UserContext);
+
+    getInfo();
 
     //countDown
     /* const { formatTiempoRestante } = useGetTime();
@@ -21,7 +24,7 @@ export const PageOne = () => {
         <Layout>
             <section className="testingPage">
                 <h1>TestingPage</h1>
-                <p>Tiempo restante: {horas} : {minutos} : {segundos}</p>
+               {/*  <p>Tiempo restante: {horas} : {minutos} : {segundos}</p> */}
             </section>
 
         </Layout>
