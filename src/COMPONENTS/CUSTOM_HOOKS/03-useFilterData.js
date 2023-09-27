@@ -1,7 +1,7 @@
 import React from "react";
 
 //custom
-import { useGetInfoFetch } from "./02-GetInfoFetch";
+import { useGetInfoFetch } from "./02-useGetInfoFetch";
 
 export const useGetInfoByProp = (prop) => {
     const validProps = ['Chicken', 'Beef']

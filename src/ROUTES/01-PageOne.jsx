@@ -8,13 +8,13 @@ import { Layout } from "../COMPONENTS/LAYOUT/Layout";
 import {UserContext} from './index'
 //hooks
 //import { useGetTime } from "../COMPONENTS/CUSTOM_HOOKS/01-DateTime"; countDown
-import { useGetInfoByProp } from "../COMPONENTS/CUSTOM_HOOKS/03-FilterData";
+import { useGetInfoByProp } from "../COMPONENTS/CUSTOM_HOOKS/03-useFilterData";
 
 export const PageOne = () => {
 
     const context = useContext(UserContext);
 
-    console.log(useGetInfoByProp('Goat'));
+    console.log(useGetInfoByProp('Beef'));
     
     
 
