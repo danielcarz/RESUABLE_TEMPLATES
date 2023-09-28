@@ -3,11 +3,18 @@ import React from "react";
 //style
 import '../../../SASS/TEMPLATES/TURISM/02-AnnouncementButton.scss';
 
+//components
+import { InputButton } from "./REUSABLE_COMPONENTS/01-InputButton";
+
 
 export const AnnouncementButton = () => {
 
 
     return(
-       <div className="AnnouncementButton">AnnouncementButton</div>
+       <section className="AnnouncementButton">
+            <h1>Tittle Annuncement</h1>
+            <InputButton></InputButton>
+            
+       </section>
     )
 }

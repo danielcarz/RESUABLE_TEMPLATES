@@ -12,11 +12,15 @@
 }
 
 @mixin styles_tablets () {
+  width: 100%;
+  padding: 10px;
+  
   border: 1px solid blue;
 }
 
 @mixin styles_desktop () {
-  
+  width: 100%;
+  padding: 10px;
 
   border: 1px solid blue;
 }
@@ -25,9 +29,8 @@
 
 
 .layoutContainer{
-  width: 100%;
-  padding: 10px;
   
+
   @include media-query($media_phone){
     @include styles_phone();
   }
