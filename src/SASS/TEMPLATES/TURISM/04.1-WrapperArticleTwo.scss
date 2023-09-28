@@ -1,13 +1,13 @@
 //VARIABLES (it musb be in the first position)
-@use '../Variables' as *;
+@use '../../COMPONENTS/Variables.scss' as *;
 
 //MEDIA
-@import '../MEDIA_QUERIES/MediaQueries.scss';
+@import '../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
 
 
 
 @mixin styles_phone () {
-  border: 1px solid blue;
+  border: 1px solid yellow;
   
 }
 
@@ -16,18 +16,13 @@
 }
 
 @mixin styles_desktop () {
-  
-
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 
 
 
-.layoutContainer{
-  width: 100%;
-  padding: 10px;
-  
+.WrapperArticleTwo{
   @include media-query($media_phone){
     @include styles_phone();
   }
@@ -39,5 +34,4 @@
   @include media-query($media_desktop){
     @include styles_desktop();
   }
-
 }

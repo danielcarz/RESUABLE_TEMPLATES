@@ -27,12 +27,13 @@ export const PageOne = () => {
 
     return(
         <Layout>
-            <section className="testingPage">
+            {/* <section className="testingPage">
                
-               {/*  <p>Tiempo restante: {horas} : {minutos} : {segundos}</p> */}
+                <p>Tiempo restante: {horas} : {minutos} : {segundos}</p>
 
-               <TemplateHome></TemplateHome>
-            </section>
+              
+            </section> */}
+            <TemplateHome></TemplateHome>
 
         </Layout>
            

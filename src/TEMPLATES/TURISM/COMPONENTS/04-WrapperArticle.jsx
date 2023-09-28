@@ -1,9 +1,13 @@
 import React from "react";
 
+//style
+import '../../../SASS/TEMPLATES/TURISM/04-WrapperArticle.scss';
+
+
 export const WrapperArticle = () => {
 
 
     return(
-        <h1>WrapperArticle</h1>
+        <div className="WrapperArticle">WrapperArticle</div>
     )
 }

@@ -23,6 +23,6 @@ export const TemplateHome = () => {
             <AnnouncementParagraph></AnnouncementParagraph>
 
         </>
-        
+         
     )
 }
