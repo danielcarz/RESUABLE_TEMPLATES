@@ -6,6 +6,9 @@ import '../SASS/COMPONENTS/01-PageOne.scss';
 //components
 import { Layout } from "../COMPONENTS/LAYOUT/Layout";
 import {UserContext} from './index'
+
+//templates
+import { TemplateHome } from "../TEMPLATES/TURISM/01-TemplateHome";
 //hooks
 //import { useGetTime } from "../COMPONENTS/CUSTOM_HOOKS/01-DateTime"; countDown
 import { useGetInfoByProp } from "../COMPONENTS/CUSTOM_HOOKS/03-useFilterData";
@@ -25,8 +28,10 @@ export const PageOne = () => {
     return(
         <Layout>
             <section className="testingPage">
-                <h1>TestingPage</h1>
+               
                {/*  <p>Tiempo restante: {horas} : {minutos} : {segundos}</p> */}
+
+               <TemplateHome></TemplateHome>
             </section>
 
         </Layout>

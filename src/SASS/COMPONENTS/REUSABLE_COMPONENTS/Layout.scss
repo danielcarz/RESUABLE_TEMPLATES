@@ -16,7 +16,9 @@
 }
 
 @mixin styles_desktop () {
-  background-color: rgb(120, 241, 6);
+  width: 100%;
+
+  border: 1px solid blue;
 }
 
 
