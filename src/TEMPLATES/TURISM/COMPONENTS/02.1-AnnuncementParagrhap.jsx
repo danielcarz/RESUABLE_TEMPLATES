@@ -8,6 +8,9 @@ export const AnnouncementParagraph = () => {
 
 
     return(
-        <div className="AnnouncementParagraph">AnnouncementParagraph</div>
+        <figure className="AnnouncementParagraph">
+            <p>text about some information</p>
+            <img alt="backgrounPicture"></img>
+        </figure>
     )
 }
