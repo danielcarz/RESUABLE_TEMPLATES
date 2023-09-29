@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 //style
 import '../../../SASS/TEMPLATES/TURISM/04.1-WrapperArticleTwo.scss';
@@ -13,6 +13,7 @@ import {ToggleContentElement} from "../COMPONENTS/REUSABLE_COMPONENTS/04-ToggleC
 export const ContentElement = () => {
 
     const {displayed, onCreateElement, data} = useContentElement();
+   
 
     return(
 
@@ -21,6 +22,7 @@ export const ContentElement = () => {
             <span>
                 <button onClick={() => onCreateElement("button1")}>Create an element 1</button>
                 <button onClick={() => onCreateElement("button2")}>Create an element 2</button>
+                <button onClick={() => onCreateElement("button3")}>Create an element 3</button>
             </span>
 
             {displayed && <ToggleContentElement title={data}></ToggleContentElement>}

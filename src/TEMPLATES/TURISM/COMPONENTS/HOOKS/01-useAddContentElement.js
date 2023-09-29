@@ -24,6 +24,12 @@ export const useContentElement = () => {
                 setData("button2")
 
                 break;
+            
+            case "button3":
+                setDisplay(true)
+                setData("button3")
+
+                break;
                 
 
             default:
