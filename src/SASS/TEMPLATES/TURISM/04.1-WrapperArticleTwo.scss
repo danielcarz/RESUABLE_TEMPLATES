@@ -22,7 +22,7 @@
 
 
 
-.WrapperArticleTwo{
+.ContentElement{
   @include media-query($media_phone){
     @include styles_phone();
   }

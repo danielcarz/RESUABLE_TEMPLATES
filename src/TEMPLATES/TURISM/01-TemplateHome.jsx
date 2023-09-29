@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-import {AnnouncementButton, ChildrenWrapperImage, WrapperArticle, WrapperArticleTwo, AnnouncementParagraph} from './';
+import {AnnouncementButton, ChildrenWrapperImage, WrapperArticle, ContentElement, AnnouncementParagraph} from './';
 
 export const TemplateHome = () => {
 
@@ -19,7 +19,7 @@ export const TemplateHome = () => {
             </ChildrenWrapperImage>
 
             <WrapperArticle></WrapperArticle>
-            <WrapperArticleTwo></WrapperArticleTwo>
+            <ContentElement></ContentElement>
             <AnnouncementParagraph></AnnouncementParagraph>
 
         </>
