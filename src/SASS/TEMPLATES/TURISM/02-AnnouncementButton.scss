@@ -8,21 +8,36 @@
 
 @mixin styles_phone () {
   border: 1px solid yellow;
+
+  height: 30vh;
   
 }
 
 @mixin styles_tablets () {
   border: 1px solid blue;
+
+  width: 100%;
+  height: 50vh;
 }
 
 @mixin styles_desktop () {
   border: 1px solid red;
+
+  width: 100%;
+  height: 60vh;
 }
 
 
 
 
 .AnnouncementButton{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+
+  text-align: center;
   @include media-query($media_phone){
     @include styles_phone();
   }

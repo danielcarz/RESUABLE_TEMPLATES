@@ -18,11 +18,11 @@ export const ContentElement = () => {
     return(
 
         <article className="ContentElement">
-
-            <span>
-                <button onClick={() => onCreateElement("button1")}>Create an element 1</button>
-                <button onClick={() => onCreateElement("button2")}>Create an element 2</button>
-                <button onClick={() => onCreateElement("button3")}>Create an element 3</button>
+            
+            <span className="WrapperButtons">
+                <button onClick={() => onCreateElement("button3")} className="Button">element 3</button>
+                <button onClick={() => onCreateElement("button2")} className="Button">element 2</button>
+                <button onClick={() => onCreateElement("button1")} className="Button">element 1</button>
             </span>
 
             {displayed && <ToggleContentElement title={data}></ToggleContentElement>}

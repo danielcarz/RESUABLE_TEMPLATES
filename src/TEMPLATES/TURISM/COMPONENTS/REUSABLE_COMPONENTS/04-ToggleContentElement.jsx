@@ -10,11 +10,15 @@ export const ToggleContentElement = ({title}) => {
 
     return(
 
-        <>
-            <h1>{title}</h1>
+       <section>
             <img alt="ContentElement image"></img>
+            <h1>{title}</h1> {/* this tag must be a p tag */}
+            
 
-        </>
+       </section>
+            
+
+       
     
     )
 }

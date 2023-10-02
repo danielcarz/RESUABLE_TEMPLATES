@@ -9,20 +9,27 @@ export const WrapperArticle = () => {
 
     return(
         <>  
-            <article className="WrapperArticle">
+            <article className="ContainerArticle">
 
-                <div>
+                <span className="ArticleTittle">
                     <h1>WrapperArticle title</h1>
-                </div>
+                </span>
 
-                <section>
-                    <figure>
-                        <img alt="Wrapper Article img"></img>
+                <section className="Wrapperarticle">
+                    <figure className="imageWrapper">
+                        <img alt="image"></img>
                         <p>Text wrapper article</p>
                     </figure>
 
-                    <figure>
-                        <img alt="Wrapper Article img"></img>
+                    <figure className="imageWrapper">
+                        <img alt="image"></img>
+                        <p>Text wrapper article</p>
+                        
+                    </figure>
+
+
+                    <figure className="imageWrapper">
+                        <img alt="image"></img>
                         <p>Text wrapper article</p>
                         
                     </figure>
