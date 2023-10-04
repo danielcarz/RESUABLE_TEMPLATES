@@ -5,7 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import { UserProvider ,Navbar} from './'
 
 //Routes
-import {PageOne } from './';
+import {PageOne, PageTWO, PageThree } from './';
 
 export const RoutesHandler = () => {
 
@@ -18,6 +18,8 @@ export const RoutesHandler = () => {
 
                 <Routes>
                     <Route path="/" element={<PageOne></PageOne>}></Route>
+                    <Route path="/two" element={<PageTWO></PageTWO>}></Route>
+                    <Route path="/three" element={<PageThree></PageThree>}></Route>
 
                     <Route path="*" element={<PageOne></PageOne>}></Route>
                 </Routes>

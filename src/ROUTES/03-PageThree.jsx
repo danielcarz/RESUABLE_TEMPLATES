@@ -1,11 +1,11 @@
 import React from "react";
 
 
-export const PageTWO = () => {
+export const PageThree = () => {
     
     return(
     
-            <h1>PageTwo</h1>
+            <h1>PageThree</h1>
             
         )
 }

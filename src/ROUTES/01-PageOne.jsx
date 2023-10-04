@@ -25,7 +25,7 @@ export const PageOne = () => {
     return(
         <Layout>
             <section className="testingPage">
-                <h1>TestingPage</h1>
+                <h1>PageOne</h1>
                {/*  <p>Tiempo restante: {horas} : {minutos} : {segundos}</p> */}
             </section>
 
