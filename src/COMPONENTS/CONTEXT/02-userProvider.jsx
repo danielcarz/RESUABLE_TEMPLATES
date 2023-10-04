@@ -6,6 +6,9 @@ import { UserReducer } from "../CUSTOM_HOOKS/USE_REDUCER/02-UseReducer";
 //contex
 import { UserContext } from "../../ROUTES/index";
 
+//types
+import { types } from "../CUSTOM_HOOKS/USE_REDUCER/01-types";
+
 const initialState = {
     checking: false,
 }
@@ -14,19 +17,19 @@ export const UserProvider = ({children}) => {
 
     const [state, dispatch] = useReducer(UserReducer, initialState)
 
-    const onCheking = (name = ' ') => {
+    const onChecking = (name = ' ') => {
 
         const action = {
-            type: type,
+            type: types.test,
             payload: {
-                name
+                name: name
             }
         }
         dispatch(action)
     }
 
     return(
-        <UserContext.Provider value={{value: 'hello'}}>
+        <UserContext.Provider value={{onChecking, ...state}}>
             {children}
         </UserContext.Provider>
 
