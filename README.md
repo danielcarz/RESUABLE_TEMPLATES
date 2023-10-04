@@ -13,3 +13,6 @@ ABOUT TEMPLATE:
     -CUSTOM HOOK
         *FILTER DATA: the filter data hook has been created for the "free meal APi".
             Therefore, if you need to use it for another APi. we must modify some line of code for optimal.
+        
+        *USE REDUCER:
+            + 01-types: centralized form to store all actions that i want to dispatch
