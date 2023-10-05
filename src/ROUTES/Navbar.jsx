@@ -8,19 +8,15 @@ export const Navbar = () => {
 
     
 
-   /*  const activate = ({isActive}) => {
-        console.log('the activate function executed');
-        if(isActive === true){
-            return 'activate'
-        }
-    } */
+ 
 
 
     return(
-        <nav>
+        <nav className="navbar">
             <ul>
-                <NavLink to={"/"}  activeclassName="activate">PageOne</NavLink>
+                <NavLink to={"/"}>PageOne</NavLink>
                 <NavLink to={"/two"} className={() => {console.log('hello class')}}>PageTWO</NavLink>
+                <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : '' }`}>PageThree</NavLink>
             </ul>
         </nav>
     )
