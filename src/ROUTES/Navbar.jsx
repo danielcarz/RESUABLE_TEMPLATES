@@ -17,7 +17,12 @@ export const Navbar = () => {
                 <NavLink to={"/"}>PageOne</NavLink>
                 <NavLink to={"/two"} className={() => {console.log('hello class')}}>PageTWO</NavLink>
                 <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : '' }`}>PageThree</NavLink>
+
+                <NavLink to={"/"} className={({isActive}) => `${isActive ? 'logIn' : 'logOut' }`}>logOut</NavLink>
+
             </ul>
+
+            
         </nav>
     )
 }
