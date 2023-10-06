@@ -1,13 +1,20 @@
 import React from "react";
-import { NavLink} from "react-router-dom";
+import { NavLink, useNavigate} from "react-router-dom";
 
 //styles
 import '../SASS/COMPONENTS/REUSABLE_COMPONENTS/Navbar.scss';
 
 export const Navbar = () => {
 
+    const navigate = useNavigate();
     
+    const onLogOut = () => {
 
+        navigate('/one', {
+            replace: true
+        })
+    
+    }
  
 
 
@@ -18,7 +25,7 @@ export const Navbar = () => {
                 <NavLink to={"/two"} className={() => {console.log('hello class')}}>PageTWO</NavLink>
                 <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : '' }`}>PageThree</NavLink>
 
-                <NavLink to={"/"} className={({isActive}) => `${isActive ? 'logIn' : 'logOut' }`}>logOut</NavLink>
+                <button to={"/"} onClick={onLogOut} className={({isActive}) => `${isActive ? 'logIn' : 'logOut' }`}>logOut</button>
 
             </ul>
 
