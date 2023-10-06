@@ -20,8 +20,14 @@ export const PageOne = () => {
     const context = useContext(UserContext);
     const navigate = useNavigate();
 
+    const {onChecking} = useContext(UserContext);
+    
+
+
     const onLogIn = () => {
 
+        onChecking('daniel');
+        
         navigate('/two', {
             replace: false
         })

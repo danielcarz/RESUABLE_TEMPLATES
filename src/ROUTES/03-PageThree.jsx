@@ -12,7 +12,7 @@ export const PageThree = () => {
         
             <>
                 <h1>PageThree</h1>
-                <button >LogIn</button>
+                
             </>
             
         )

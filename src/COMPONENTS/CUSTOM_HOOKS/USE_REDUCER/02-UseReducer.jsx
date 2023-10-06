@@ -1,9 +1,14 @@
 import React, {useReducer} from "react";
 
+import { types } from "./01-types";
+
 export const UserReducer = (state = {}, action) => {
+
+    
+
     switch(action.type){
 
-        case type.test:
+        case types.test:
             return {
                 ...state,
                 checking: action.payload

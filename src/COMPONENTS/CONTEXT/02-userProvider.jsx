@@ -10,7 +10,7 @@ import { UserContext } from "../../ROUTES/index";
 import { types } from "../CUSTOM_HOOKS/USE_REDUCER/01-types";
 
 const initialState = {
-    checking: false,
+    checking: '',
 }
 
 export const UserProvider = ({children}) => {
@@ -25,8 +25,12 @@ export const UserProvider = ({children}) => {
                 name: name
             }
         }
+        
         dispatch(action)
     }
+
+    
+
 
     return(
         <UserContext.Provider value={{onChecking, ...state}}>
