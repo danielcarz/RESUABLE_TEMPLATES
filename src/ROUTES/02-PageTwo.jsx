@@ -1,11 +1,25 @@
-import React from "react";
+import React, {useContext} from "react";
+
+import { UserContext } from "./index";
+
+
 
 
 export const PageTWO = () => {
+
+   
+
+    const {checking} = useContext(UserContext)
+
+    
     
     return(
-    
-            <h1>PageTwo</h1>
+            <>
+                <h1>PageTwo</h1>
+                
+
+
+            </>
             
         )
 }

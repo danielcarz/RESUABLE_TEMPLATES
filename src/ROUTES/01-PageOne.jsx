@@ -17,7 +17,7 @@ import { useGetInfoByProp } from "../COMPONENTS/CUSTOM_HOOKS/03-useFilterData";
 
 export const PageOne = () => {
 
-    const context = useContext(UserContext);
+    //const context = useContext(UserContext);
     const navigate = useNavigate();
 
     const {onChecking} = useContext(UserContext);
