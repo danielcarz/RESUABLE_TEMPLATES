@@ -22,7 +22,7 @@ export const Navbar = () => {
         <nav className="navbar">
             <ul>
                 <NavLink to={"/"}>PageOne</NavLink>
-                <NavLink to={"/two"} className={() => {console.log('hello class')}}>PageTWO</NavLink>
+                <NavLink to={"/two"} className={({isActive}) => `${isActive ? 'active' : ''}`}>PageTWO</NavLink>
                 <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : '' }`}>PageThree</NavLink>
 
                 <button to={"/"} onClick={onLogOut} className={({isActive}) => `${isActive ? 'logIn' : 'logOut' }`}>logOut</button>
