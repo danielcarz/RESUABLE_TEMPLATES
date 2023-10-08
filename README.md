@@ -19,3 +19,5 @@ ABOUT TEMPLATE:
         
         *USE REDUCER:
             + 01-types: centralized form to store all actions that i want to dispatch
+
+            + USE REDUCER FUNCTION: must be a pure function that does not call an external function. it must be resolved with the state and the action
