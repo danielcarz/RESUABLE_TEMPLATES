@@ -6,6 +6,8 @@ import '../SASS/COMPONENTS/01-PageOne.scss';
 
 //components
 import { Layout } from "../COMPONENTS/LAYOUT/Layout";
+
+//context
 import {UserContext} from './index'
 
 //hooks

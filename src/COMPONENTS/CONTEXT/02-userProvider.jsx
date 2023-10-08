@@ -29,7 +29,7 @@ export const UserProvider = ({children}) => {
         const user = {name};
 
         const action = {
-            type: types.test,
+            type: types.login,
             payload: user
         };
         
@@ -37,11 +37,22 @@ export const UserProvider = ({children}) => {
         dispatch(action);
     }
 
+    const outChecking = () => {
+        localStorage.removeItem('user')
+
+        const action = {
+            type: types.logOut,
+            payload: ''
+        }
+
+        dispatch(action);
+    }
+
     
 
 
     return(
-        <UserContext.Provider value={{onChecking, ...state}}>
+        <UserContext.Provider value={{onChecking, outChecking , ...state}}>
             {children}
         </UserContext.Provider>
 

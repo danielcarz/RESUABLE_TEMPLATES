@@ -8,11 +8,20 @@ export const UserReducer = (state = {}, action) => {
 
     switch(action.type){
 
-        case types.test:
+        case types.login:
             return {
                 ...state,
+                logged:true,
                 checking: action.payload
             }
+        
+        
+        case types.logOut:
+            return{
+                logged: false,
+                
+            }
+       
 
         default:
             return state;
