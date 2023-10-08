@@ -10,14 +10,14 @@ import { UserContext } from "../../ROUTES/index";
 import { types } from "../CUSTOM_HOOKS/USE_REDUCER/01-types";
 
 const initialState = {
-    checking: '',
+    checking: 'initial state',
 }
 
 export const UserProvider = ({children}) => {
 
     const [state, dispatch] = useReducer(UserReducer, initialState)
 
-    const onChecking = (name = ' ') => {
+    const onChecking = (name = 'initial name') => {
 
         const action = {
             type: types.test,
