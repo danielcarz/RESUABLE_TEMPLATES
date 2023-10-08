@@ -9,24 +9,32 @@ import { UserContext } from "../../ROUTES/index";
 //types
 import { types } from "../CUSTOM_HOOKS/USE_REDUCER/01-types";
 
-const initialState = {
-    checking: 'initial state',
+
+
+const init = () => {
+    const user = JSON.parse(localStorage.getItem('user'));
+
+    return{
+        logged: !!user,
+        user
+    }
 }
 
 export const UserProvider = ({children}) => {
 
-    const [state, dispatch] = useReducer(UserReducer, initialState)
+    const [state, dispatch] = useReducer(UserReducer, {} , init)
 
     const onChecking = (name = 'initial name') => {
 
+        const user = {name};
+
         const action = {
             type: types.test,
-            payload: {
-                name: name
-            }
-        }
+            payload: user
+        };
         
-        dispatch(action)
+        localStorage.setItem('user', JSON.stringify(user));
+        dispatch(action);
     }
 
     

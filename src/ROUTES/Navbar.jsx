@@ -10,7 +10,7 @@ import '../SASS/COMPONENTS/REUSABLE_COMPONENTS/Navbar.scss';
 
 export const Navbar = () => {
 
-    const {checking} =  useContext(UserContext);
+    const {user} =  useContext(UserContext);
     const navigate = useNavigate();
     
     const onLogOut = () => {
@@ -20,7 +20,7 @@ export const Navbar = () => {
         })
     
     }
- 
+  
 
 
     return(
@@ -32,7 +32,7 @@ export const Navbar = () => {
                 
 
                 <div>
-                    <p>{checking && checking.name}</p>
+                    <p>{user && user.name}</p>
                     <button to={"/"} onClick={onLogOut} className={({isActive}) => `${isActive ? 'logIn' : 'logOut' }`}>logOut</button>
 
 
