@@ -6,6 +6,7 @@ import { UserProvider ,Navbar, PrivateRoutes} from './'
 
 //Routes
 import {PageOne, PageTWO, PageThree, PageFour } from './';
+import { PublicRoutes } from "./PublicRoutes";
 
 export const RoutesHandler = () => {
 
@@ -18,9 +19,13 @@ export const RoutesHandler = () => {
                 <Navbar></Navbar>
 
                 <Routes>
-                    <Route path="/" element={<PageOne></PageOne>}></Route>
+                    <Route path="/" element={
+
+                        <PublicRoutes>
+                            <PageOne></PageOne>
+                        </PublicRoutes>
+                    }></Route>
                     
-                    <Route path="/three" element={<PageThree></PageThree>}></Route> 
 
 
                     <Route path="*" element={
@@ -33,6 +38,9 @@ export const RoutesHandler = () => {
 
 
                     </Route>
+
+                    <Route path="/three" element={<PageThree></PageThree>}></Route> 
+
                 </Routes>
 
 
