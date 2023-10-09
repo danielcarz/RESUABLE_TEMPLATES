@@ -1,10 +1,11 @@
 import React from "react";
-import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom"
+import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
+
 //components
-import { UserProvider ,Navbar} from './'
+import { UserProvider ,Navbar, PrivateRoutes} from './'
 
 //Routes
-import {PageOne, PageTWO, PageThree } from './';
+import {PageOne, PageTWO, PageThree, PageFour } from './';
 
 export const RoutesHandler = () => {
 
@@ -18,11 +19,20 @@ export const RoutesHandler = () => {
 
                 <Routes>
                     <Route path="/" element={<PageOne></PageOne>}></Route>
-                    <Route path="/two" element={<PageTWO></PageTWO>}></Route>
-                    <Route path="/three" element={<PageThree></PageThree>}></Route>
+                    
+                    <Route path="/three" element={<PageThree></PageThree>}></Route> 
 
 
-                    <Route path="*" element={<Navigate to="/"></Navigate>}></Route>
+                    <Route path="*" element={
+                    
+                        <PrivateRoutes>
+                            <PageTWO></PageTWO>
+                           
+
+                        </PrivateRoutes>}>
+
+
+                    </Route>
                 </Routes>
 
 

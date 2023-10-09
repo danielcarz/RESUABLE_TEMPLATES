@@ -16,6 +16,7 @@ export const PageTWO = () => {
     return(
             <>
                 <h1>PageTwo</h1>
+                <p>this page is a private route</p>
                 
 
 

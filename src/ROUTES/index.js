@@ -2,6 +2,8 @@
 export * from './01-PageOne';
 export * from './02-PageTwo';
 export * from './03-PageThree';
+export * from './04-PageFour';
+export * from './PrivateRoutes';
 
 //components
 export * from './Navbar';

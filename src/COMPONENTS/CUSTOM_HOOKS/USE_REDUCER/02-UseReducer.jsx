@@ -12,7 +12,7 @@ export const UserReducer = (state = {}, action) => {
             return {
                 ...state,
                 logged:true,
-                checking: action.payload
+                user: action.payload
             }
         
         
