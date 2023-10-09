@@ -21,3 +21,6 @@ ABOUT TEMPLATE:
             + 01-types: centralized form to store all actions that i want to dispatch
 
             + USE REDUCER FUNCTION: must be a pure function that does not call an external function. it must be resolved with the state and the action
+
+VERSIONS:
+    -9.2-PUBLIC ROUTES: is the las version of the virgen app where i can use and setting it, depends on the needs if i want to create a new app from it" 
