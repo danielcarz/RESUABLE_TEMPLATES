@@ -53,8 +53,7 @@ export const RoutesHandler = () => {
 
                 </Route>
 
-{/*                     <Route path="/three" element={<PageThree></PageThree>}></Route> 
- */}
+
                 </Routes>
 
 
