@@ -23,4 +23,4 @@ ABOUT TEMPLATE:
             + USE REDUCER FUNCTION: must be a pure function that does not call an external function. it must be resolved with the state and the action
 
 VERSIONS:
-    -9.2-PUBLIC ROUTES: is the las version of the virgen app where i can use and setting it, depends on the needs if i want to create a new app from it" 
+    -9.2-PUBLIC ROUTES V0.1: is the last version of the virgen app that i can use and setting it, depends on the needs if i want to create a new app from it" 
