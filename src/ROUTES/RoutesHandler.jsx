@@ -1,25 +1,59 @@
 import React from "react";
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 
 //components
-import { UserProvider ,Navbar} from './'
+import { UserProvider ,Navbar, PrivateRoutes} from './'
 
 //Routes
-import {PageOne } from './';
+import {PageOne, PageTWO, PageThree, PageFour } from './';
+import { PublicRoutes } from "./PublicRoutes";
 
 export const RoutesHandler = () => {
 
 
     return(
+
         <UserProvider>
             <BrowserRouter>
 
                 <Navbar></Navbar>
 
+                
                 <Routes>
-                    <Route path="/" element={<PageOne></PageOne>}></Route>
+                    {/* public routes */}
+                    <Route path="/" element={
 
-                    <Route path="*" element={<PageOne></PageOne>}></Route>
+                            <PublicRoutes>
+                                <PageOne></PageOne>
+                                
+
+                            </PublicRoutes>
+                        }>
+
+                    </Route>
+                    
+
+                    {/* private routes */}
+                    <Route path="*" element={
+                    
+                        <PrivateRoutes>
+                            <PageTWO></PageTWO>
+                        </PrivateRoutes>}>
+
+
+                    </Route>
+
+                    {/* private routes */}
+                    <Route path="/three" element={
+                    
+                    <PrivateRoutes>
+                       <PageThree></PageThree>
+                    </PrivateRoutes>}>
+
+
+                </Route>
+
+
                 </Routes>
 
 

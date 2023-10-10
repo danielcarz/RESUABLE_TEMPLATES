@@ -12,21 +12,62 @@
 }
 
 @mixin styles_tablets () {
-  background-color: blue; 
+  border: 1px solid blue;
+  
 
-  .activate{
+  .active{
     background-color: coral;
     font-weight: bold;
   }
 }
 
 @mixin styles_desktop () {
+  border: 1px solid red;
+  font-size: 30px;
+
+  
+  ul{
+   
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid purple;
+    a{
+      
+      text-decoration: none;
+      display: flex;
+      
+    
+
+    }
+  }
+  // Navbar.scss
+
+   
+  .active{
+    color :red;
+    font-weight: bold;
+  }
+
+  .logIn{
+    border: 1px solid green;
+  }
+
+  .logOut{
+    border: 1px solid red;
+  }
+
+
   
 }
 
 
 
 
+<<<<<<< HEAD
 nav{
 
   ul{
@@ -38,6 +79,9 @@ nav{
   
   
   
+=======
+.navbar{
+>>>>>>> 9.2-PUBLIC_ROUTES
   @include media-query($media_phone){
     @include styles_phone();
   }

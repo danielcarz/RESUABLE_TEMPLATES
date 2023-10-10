@@ -1,9 +1,12 @@
 //routes
 export * from './01-PageOne';
 export * from './02-PageTwo';
+export * from './03-PageThree';
+export * from './04-PageFour';
+export * from './PrivateRoutes';
 
 //components
-export * from '../COMPONENTS/Navbar';
+export * from './Navbar';
 export * from '../COMPONENTS/CONTEXT/02-userProvider';
 
 //context
