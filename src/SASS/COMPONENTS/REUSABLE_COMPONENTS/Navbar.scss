@@ -67,21 +67,7 @@
 
 
 
-<<<<<<< HEAD
-nav{
-
-  ul{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-
-  
-  
-  
-=======
 .navbar{
->>>>>>> 9.2-PUBLIC_ROUTES
   @include media-query($media_phone){
     @include styles_phone();
   }

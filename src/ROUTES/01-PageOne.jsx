@@ -10,15 +10,12 @@ import { Layout } from "../COMPONENTS/LAYOUT/Layout";
 //context
 import {UserContext} from './index'
 
-<<<<<<< HEAD
-=======
 //hooks
 //import { useGetTime } from "../COMPONENTS/CUSTOM_HOOKS/01-DateTime"; countDown
 import { useGetInfoByProp } from "../COMPONENTS/CUSTOM_HOOKS/03-useFilterData";
 
 
 
->>>>>>> 9.2-PUBLIC_ROUTES
 
 export const PageOne = () => {
 
@@ -48,16 +45,11 @@ export const PageOne = () => {
     return(
         <Layout>
             <section className="testingPage">
-<<<<<<< HEAD
-                <h1>TestingPage</h1>
-                
-=======
                 
                {/*  <p>Tiempo restante: {horas} : {minutos} : {segundos}</p> */}
 
                <h1>PageOne</h1>
                <button onClick={onLogIn}>LogIn</button>
->>>>>>> 9.2-PUBLIC_ROUTES
             </section>
 
         </Layout>
