@@ -18,29 +18,43 @@ export const RoutesHandler = () => {
 
                 <Navbar></Navbar>
 
+                
                 <Routes>
+                    {/* public routes */}
                     <Route path="/" element={
 
-                        <PublicRoutes>
-                            <PageOne></PageOne>
-                        </PublicRoutes>
-                    }></Route>
+                            <PublicRoutes>
+                                <PageOne></PageOne>
+                                
+
+                            </PublicRoutes>
+                        }>
+
+                    </Route>
                     
 
-
+                    {/* private routes */}
                     <Route path="*" element={
                     
                         <PrivateRoutes>
                             <PageTWO></PageTWO>
-                           
-
                         </PrivateRoutes>}>
 
 
                     </Route>
 
-                    <Route path="/three" element={<PageThree></PageThree>}></Route> 
+                    {/* private routes */}
+                    <Route path="/three" element={
+                    
+                    <PrivateRoutes>
+                       <PageThree></PageThree>
+                    </PrivateRoutes>}>
 
+
+                </Route>
+
+{/*                     <Route path="/three" element={<PageThree></PageThree>}></Route> 
+ */}
                 </Routes>
 
 
