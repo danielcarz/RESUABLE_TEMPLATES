@@ -5,7 +5,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import { UserProvider ,Navbar} from './'
 
 //Routes
-import {PageOne } from './';
+import {TemplateHome, ColombianCulture } from './';
+
 
 export const RoutesHandler = () => {
 
@@ -17,9 +18,12 @@ export const RoutesHandler = () => {
                 <Navbar></Navbar>
 
                 <Routes>
-                    <Route path="/" element={<PageOne></PageOne>}></Route>
+                    <Route path="/" element={<TemplateHome></TemplateHome>}></Route>
+                    <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
 
-                    <Route path="*" element={<PageOne></PageOne>}></Route>
+                    
+
+                    
                 </Routes>
 
 

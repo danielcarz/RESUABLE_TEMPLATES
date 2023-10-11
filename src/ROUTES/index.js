@@ -1,6 +1,7 @@
-//routes
-export * from './01-PageOne';
-export * from './02-PageTwo';
+//pages
+
+export * from '../TEMPLATES/TURISM/COMPONENTS/PAGES/01-TemplateHome';
+export * from '../TEMPLATES/TURISM/COMPONENTS/PAGES/02-ColombianCulture';
 
 //components
 export * from '../COMPONENTS/Navbar';

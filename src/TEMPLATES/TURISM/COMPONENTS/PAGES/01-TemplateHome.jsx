@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-import {AnnouncementButton, ChildrenWrapperImage, WrapperArticle, ContentElement, AnnouncementParagraph} from './';
+import {AnnouncementButton, ChildrenWrapperImage, WrapperArticle, ContentElement, AnnouncementParagraph} from '../..';
 
 export const TemplateHome = () => {
 
