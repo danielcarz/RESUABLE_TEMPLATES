@@ -7,6 +7,7 @@ export * from './COMPONENTS/02.1-AnnuncementParagrhap';
 
 //reusable components
 export * from './COMPONENTS/REUSABLE_COMPONENTS/01-InputButton';
+export * from './COMPONENTS/REUSABLE_COMPONENTS/05-Card';
 
 //layout component
 export * from '../../COMPONENTS/LAYOUT/Layout';

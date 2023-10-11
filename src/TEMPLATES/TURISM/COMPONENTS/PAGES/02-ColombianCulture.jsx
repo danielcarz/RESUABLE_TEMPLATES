@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-import {AnnouncementButton, ChildrenWrapperImage, InputButton, ContentElement, AnnouncementParagraph} from '../..';
+import {AnnouncementButton, ChildrenWrapperImage, InputButton, Cards, AnnouncementParagraph} from '../..';
 
 //layout
 import {Layout} from '../..';
@@ -9,7 +9,7 @@ import {Layout} from '../..';
 export const ColombianCulture = () => {
 
     return(
-
+ 
         <Layout>
             <h1>ColombianCulture</h1>
             <AnnouncementButton></AnnouncementButton>
@@ -25,6 +25,7 @@ export const ColombianCulture = () => {
                     <img className="image" alt="picture"></img>
                 </figure>
             </ChildrenWrapperImage>
+            <Cards></Cards>
            
         </Layout>
     )

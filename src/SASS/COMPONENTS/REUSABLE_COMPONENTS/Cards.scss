@@ -1,0 +1,59 @@
+//VARIABLES (it musb be in the first position)
+@use '../Variables' as *;
+
+//MEDIA
+@import '../MEDIA_QUERIES/MediaQueries.scss';
+
+
+
+@mixin styles_phone () {
+  border: 1px solid blue;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@mixin styles_tablets () {
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  
+  border: 1px solid blue;
+}
+
+@mixin styles_desktop () {
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+
+  border: 1px solid blue;
+}
+
+
+
+
+.CardsContainer{
+  
+
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}
