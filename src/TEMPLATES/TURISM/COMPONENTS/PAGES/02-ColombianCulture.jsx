@@ -1,10 +1,14 @@
 import React from "react";
 
+//layout
+import {Layout} from '../..';
 
 export const ColombianCulture = () => {
 
     return(
 
-        <h1>ColombianCulture</h1>
+        <Layout>
+            <h1>ColombianCulture</h1>
+        </Layout>
     )
 }
