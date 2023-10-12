@@ -1,36 +1,43 @@
 //VARIABLES (it musb be in the first position)
-@use '../Variables' as *;
+@use '../../COMPONENTS/Variables.scss' as *;
 
 //MEDIA
-@import '../MEDIA_QUERIES/MediaQueries.scss';
+@import '../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
 
 
 
 @mixin styles_phone () {
-  border: 1px solid blue;
+  border: 1px solid yellow;
+
+  height: 30vh;
   
 }
 
 @mixin styles_tablets () {
-  width: 100%;
-  padding: 10px;
-  
   border: 1px solid blue;
+
+  width: 100%;
+  height: 50vh;
 }
 
 @mixin styles_desktop () {
-  width: 100%;
-  padding: 10px;
+  border: 1px solid red;
 
-  border: 1px solid blue;
+  width: 100%;
+  height: 60vh;
 }
 
 
 
 
-.layoutContainer{
+.AnnouncementButton{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   
 
+  text-align: center;
   @include media-query($media_phone){
     @include styles_phone();
   }

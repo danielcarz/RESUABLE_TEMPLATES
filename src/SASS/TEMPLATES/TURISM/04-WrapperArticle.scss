@@ -1,0 +1,163 @@
+//VARIABLES (it musb be in the first position)
+@use '../../COMPONENTS/Variables.scss' as *;
+
+//MEDIA
+@import '../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
+
+@mixin useWrapperArticle () {
+  border: 1px solid green;
+
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 300px;
+}
+
+@mixin styles_phone () {
+  border: 1px solid yellow;
+
+  .Wrapperarticle{
+    /* @include useWrapperArticle(); */
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .imageWrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      width: 100%;
+
+
+      border: 1px solid rgb(88, 3, 245);
+
+      img{
+
+        width: 100%;
+        height: 150px;
+
+        border: 1px solid purple;
+      }
+
+      p{
+        text-align: center;
+
+        width: 100%;
+        
+
+        color: red;
+
+        border: 1px solid rgb(45, 245, 5);
+      }
+    }
+  }
+  
+}
+
+@mixin styles_tablets () {
+  border: 1px solid blue;
+
+  .Wrapperarticle{
+    @include useWrapperArticle();
+
+    .imageWrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      width: 30%;
+
+
+      border: 1px solid rgb(88, 3, 245);
+
+      img{
+
+        width: 100%;
+        height: 50%;
+
+        border: 1px solid purple;
+      }
+
+      p{
+        text-align: center;
+
+        width: 100%;
+        height: 50%;
+
+        color: red;
+
+        border: 1px solid rgb(45, 245, 5);
+      }
+    }
+  }
+
+ 
+}
+
+@mixin styles_desktop () {
+  border: 1px solid red;
+
+  height: 40vh;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+
+  .Wrapperarticle{
+    @include useWrapperArticle();
+
+    .imageWrapper{
+      display: flex;
+      justify-content: space-between;
+      
+      width: 30%;
+
+
+      border: 1px solid rgb(88, 3, 245);
+
+      img{
+
+        width: 40%;
+
+        border: 1px solid purple;
+      }
+
+      p{
+        text-align: center;
+
+        width: 50%;
+
+        color: red;
+
+        border: 1px solid blue;
+      }
+    }
+  }
+}
+
+
+
+
+.ContainerArticle{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}

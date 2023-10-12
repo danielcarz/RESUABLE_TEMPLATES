@@ -1,0 +1,167 @@
+//VARIABLES (it musb be in the first position)
+@use '../../COMPONENTS/Variables.scss' as *;
+
+//MEDIA
+@import '../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
+
+@mixin styles_tablets_and_desktop () {
+  border: 1px solid blue;
+
+  height: 30vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  
+
+  figure{
+
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid purple;
+
+    img{
+
+      width: 250px;
+      height: 250px;
+      min-width: 100px;
+
+      border: 1px solid purple;
+    }
+  }
+
+}
+
+@mixin styles_phone () {
+  border: 1px solid yellow;
+
+ 
+
+  height: 30vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  
+
+  figure{
+
+    width: 100%;
+    padding: 10px;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid rgb(9, 0, 128);
+
+    img{
+
+      width: 250px;
+      height: 150px;
+      border: 1px solid red;
+      
+
+      
+    }
+  }
+  
+}
+
+@mixin styles_tablets () {
+  border: 1px solid blue;
+  
+  
+
+  height: 40vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  
+
+  figure{
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid purple;
+
+    img{
+
+      width: 250px;
+      height: 250px;
+      min-width: 100px;
+
+      border: 1px solid purple;
+    }
+  }
+
+}
+
+@mixin styles_desktop () {
+  border: 1px solid red;
+
+  
+
+  height: 70vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+
+  
+  
+
+  figure{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    overflow: hidden;
+
+    border: 1px solid purple;
+
+    img{
+
+    
+      
+      max-width: 100%;
+      max-height: 100%;
+
+      min-width: 500px;
+      min-height: 250px;
+
+      border: 1px solid rgb(57, 243, 10);
+    }
+  }
+}
+
+
+
+
+
+
+.ChildrenWrapperImage{
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}
