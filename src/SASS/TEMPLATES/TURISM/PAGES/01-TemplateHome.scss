@@ -1,11 +1,8 @@
 //VARIABLES (it musb be in the first position)
-@use '../../COMPONENTS/Variables.scss' as *;
+@use '../../../COMPONENTS/Variables.scss' as *;
 
 //MEDIA
-@import '../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
-
-//mixins
-@import '../../COMPONENTS/REUSABLE_COMPONENTS/Typesbuttons.scss';
+@import '../../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
 
 
 
@@ -24,7 +21,7 @@
 }
 
 @mixin styles_desktop () {
-  border: 1px solid red;
+  border: 1px solid rgb(143, 173, 108);
 
   width: 100%;
   height: 60vh;
@@ -34,20 +31,36 @@
 
 
 .AnnouncementButton{
+  max-width: 100%;
+
+  overflow: hidden;
+
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 
-  
-  
-  .StyleButton_A{
-    @include InputButton_A();
-  }
+  .portadaWrapper{
 
-  .StyleButton_B{
-    @include SendButton_B();
+    width: 100%;
+
+    position: relative;
+    border: 2px solid green;
+
+    img{
+      width: 1024px;
+      height: 300px;
+    }
+
+    .button{
+      position: absolute;
+      top: 50px;
+      left: 300px;
+
+      background-color: #61e907;
+    }
   }
+  
 
   text-align: center;
   @include media-query($media_phone){

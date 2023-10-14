@@ -1,10 +1,10 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 
-export const InputButton = () => {
+export const InputButton = ({typeButton}) => {
 
     return(
         
-        <Button>InputButtons</Button>
+        <Button className={typeButton}>InputButtons</Button>
     )
 }

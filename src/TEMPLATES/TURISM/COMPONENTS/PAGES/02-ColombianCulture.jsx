@@ -12,7 +12,7 @@ export const ColombianCulture = () => {
  
         <Layout>
             <h1>ColombianCulture</h1>
-            <AnnouncementButton></AnnouncementButton>
+            <AnnouncementButton type="StyleButton_A"></AnnouncementButton>
             
             <ChildrenWrapperImage>
 

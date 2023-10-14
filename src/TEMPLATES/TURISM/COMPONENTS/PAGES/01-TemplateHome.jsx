@@ -17,7 +17,7 @@ export const TemplateHome = () => {
 
 
                 <h1>TemplateHome</h1>
-                <AnnouncementButton></AnnouncementButton>
+                <AnnouncementButton type="StyleButton"></AnnouncementButton>
                 <ChildrenWrapperImage>
                     <figure>
                         <img alt="picture"></img>
