@@ -16,11 +16,6 @@ ABOUT TEMPLATE:
     -CUSTOM HOOK
         *FILTER DATA: the filter data hook has been created for the "free meal APi".
             Therefore, if you need to use it for another APi. we must modify some line of code for optimal.
-<<<<<<< HEAD
-        
-        *USE REDUCER:
-            + 01-types: centralized form to store all actions that i want to dispatch
-=======
     
     -TEMPLATES:
         *
@@ -29,4 +24,5 @@ ABOUT GIT SCHEMA:
     BRANCH:
         * 8.1-TEMPLATE-TURISM V0.1: creation of the components with their styles files
             configurated
->>>>>>> TESTING
+
+4tqkz2an1r4plidvu619jtuqiz8dibawfc8zgpdzok42rczqp3

@@ -1,4 +1,4 @@
-//componenst
+//components
 export * from './COMPONENTS/02-AnnouncementButton';
 export * from './COMPONENTS/03-ChildrenWrapperImage';
 export * from './COMPONENTS/04-WrapperArticle';

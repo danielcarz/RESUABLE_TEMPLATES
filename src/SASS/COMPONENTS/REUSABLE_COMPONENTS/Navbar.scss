@@ -7,7 +7,29 @@
 
 
 @mixin styles_phone () {
-  background-color: yellow;
+  border: 1px solid yellow;
+
+  ul{
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid green;
+
+    a{
+
+      text-decoration: none;
+      color: red;
+
+      border: 1px solid purple;
+
+    }
+
+
+  }
+
   
 }
 
