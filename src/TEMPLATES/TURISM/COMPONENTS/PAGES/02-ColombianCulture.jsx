@@ -6,13 +6,16 @@ import {AnnouncementButton, ChildrenWrapperImage, InputButton, Cards, Announceme
 //layout
 import {Layout} from '../..';
 
+//assets
+import bgimage from  '../../ASSETS/01.3portada.jpg';
+
 export const ColombianCulture = () => {
 
     return(
  
         <Layout>
             <h1>ColombianCulture</h1>
-            <AnnouncementButton type="StyleButton_B"></AnnouncementButton>
+            <AnnouncementButton type="StyleButton_A" bg={bgimage}></AnnouncementButton>
             
             <ChildrenWrapperImage>
 
