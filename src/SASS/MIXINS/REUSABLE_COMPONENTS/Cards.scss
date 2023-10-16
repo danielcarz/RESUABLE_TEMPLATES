@@ -7,22 +7,43 @@
 
 
 @mixin styles_phone () {
-  background-color: yellow;
+  border: 1px solid blue;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
 }
 
 @mixin styles_tablets () {
-  background-color: blue; 
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  
+  border: 1px solid blue;
 }
 
 @mixin styles_desktop () {
-  background-color: rgb(120, 241, 6);
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+
+  border: 1px solid blue;
 }
 
 
 
 
-.layoutContainer{
+.CardsContainer{
+  
+
   @include media-query($media_phone){
     @include styles_phone();
   }

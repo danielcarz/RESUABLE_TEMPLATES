@@ -6,7 +6,7 @@ import {UserContext} from './index';
 //
 
 //styles
-import '../SASS/COMPONENTS/REUSABLE_COMPONENTS/Navbar.scss';
+import '../SASS/MIXINS/REUSABLE_COMPONENTS/Navbar.scss';
 
 export const Navbar = () => {
 

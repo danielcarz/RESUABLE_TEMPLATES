@@ -1,21 +1,29 @@
-# React + Vite
+TEMPLATE TROVE:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STRUCTURE OF THE APP TROVE:
+    *  Explanation of each folder that contains the app.
+        FOLDERS:
+            * SRC: main root of the app
 
-Currently, two official plugins are available:
+                 + COMPONENTS: This folder contains reusable components that we can use for any template
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+                 + ROUTES: Route handler and management of private and public routes.
 
+                 + TEMPLATES: This folder will store all the different templates that the Torve app contains.
 
+                 + SASS:"This folder is the main folder that contains all styles for the Torve app. It's divided into two sections: the TEMPLATES FOLDER, which contains styles for each of the templates, and the COMPONE and MIXIN, which can be used for every template.
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 ABOUT MARVEL API:
 =======
 ABOUT ROUTES:
+=======
+>>>>>>> 8.0-TEMPLATES
     
 
-ABOUT TEMPLATE:
 
+<<<<<<< HEAD
     -CUSTOM HOOK
         *FILTER DATA: the filter data hook has been created for the "free meal APi".
             Therefore, if you need to use it for another APi. we must modify some line of code for optimal.
@@ -28,3 +36,7 @@ ABOUT TEMPLATE:
 VERSIONS:
     -9.2-PUBLIC ROUTES V0.1: is the last version of the virgen app that i can use and setting it, depends on the needs if i want to create a new app from it" 
 >>>>>>> 9.2-PUBLIC_ROUTES
+=======
+
+
+>>>>>>> 8.0-TEMPLATES

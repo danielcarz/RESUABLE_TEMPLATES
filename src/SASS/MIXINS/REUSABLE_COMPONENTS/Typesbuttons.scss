@@ -1,0 +1,24 @@
+//VARIABLES (it musb be in the first position)
+@use '../../MIXINS/Variables.scss' as *;
+
+@mixin InputButton_A () {
+    background-color: $InputbackColor;
+    background-color: rgb(3, 46, 236);
+    width: 160px;
+    height: 40px;
+
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    
+}
+
+@mixin SendButton_B () {
+    background-color: red;
+    width: 160px;
+    height: 40px;
+
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}

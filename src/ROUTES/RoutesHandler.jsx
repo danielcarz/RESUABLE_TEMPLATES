@@ -5,8 +5,8 @@ import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import { UserProvider ,Navbar, PrivateRoutes} from './'
 
 //Routes
-import {PageOne, PageTWO, PageThree, PageFour } from './';
-import { PublicRoutes } from "./PublicRoutes";
+import {TemplateHome, ColombianCulture } from './';
+
 
 export const RoutesHandler = () => {
 
@@ -20,40 +20,12 @@ export const RoutesHandler = () => {
 
                 
                 <Routes>
-                    {/* public routes */}
-                    <Route path="/" element={
+                    <Route path="/" element={<TemplateHome></TemplateHome>}></Route>
+                    <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
 
-                            <PublicRoutes>
-                                <PageOne></PageOne>
-                                
-
-                            </PublicRoutes>
-                        }>
-
-                    </Route>
                     
 
-                    {/* private routes */}
-                    <Route path="*" element={
                     
-                        <PrivateRoutes>
-                            <PageTWO></PageTWO>
-                        </PrivateRoutes>}>
-
-
-                    </Route>
-
-                    {/* private routes */}
-                    <Route path="/three" element={
-                    
-                    <PrivateRoutes>
-                       <PageThree></PageThree>
-                    </PrivateRoutes>}>
-
-
-                </Route>
-
-
                 </Routes>
 
 
