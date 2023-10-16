@@ -13,4 +13,4 @@ STRUCTURE OF THE APP TROVE:
 
                  + SASS:"This folder is the main folder that contains all styles for the Torve app. It's divided into two sections: the TEMPLATES FOLDER, which contains styles for each of the templates, and the COMPONE and MIXIN, which can be used for every template.
 
-
+NOTE: This app will added New templates periodically.
