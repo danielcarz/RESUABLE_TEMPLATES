@@ -25,4 +25,5 @@ ABOUT GIT SCHEMA:
         * 8.1-TEMPLATE-TURISM V0.1: creation of the components with their styles files
             configurated
 
-4tqkz2an1r4plidvu619jtuqiz8dibawfc8zgpdzok42rczqp3
+
+
