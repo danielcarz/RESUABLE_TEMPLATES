@@ -4,7 +4,7 @@ export * from '../TEMPLATES/TURISM/COMPONENTS/PAGES/01-TemplateHome';
 export * from '../TEMPLATES/TURISM/COMPONENTS/PAGES/02-ColombianCulture';
 
 //components
-export * from './Navbar';
+export * from '../COMPONENTS/01-Navbar';
 export * from '../COMPONENTS/CONTEXT/02-userProvider';
 
 //context
