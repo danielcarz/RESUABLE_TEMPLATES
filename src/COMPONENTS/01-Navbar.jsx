@@ -1,9 +1,8 @@
 import React, {useContext} from "react";
 import { NavLink, useNavigate} from "react-router-dom";
 
-import {UserContext} from './index';
+import {UserContext} from '../COMPONENTS/CONTEXT/01-userContext';
 
-//
 
 //styles
 import '../SASS/MIXINS/REUSABLE_COMPONENTS/Navbar.scss';

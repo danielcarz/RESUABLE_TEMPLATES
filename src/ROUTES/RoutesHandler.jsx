@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 
 //components
-import { UserProvider ,Navbar, PrivateRoutes} from './'
+import { UserProvider ,Navbar} from './'
 
 //Routes
 import {TemplateHome, ColombianCulture } from './';
