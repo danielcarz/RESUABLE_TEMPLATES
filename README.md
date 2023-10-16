@@ -1,29 +1,19 @@
-# React + Vite
+TEMPLATE TROVE:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STRUCTURE OF THE TEMPLATE TROVE:
+    *  Explanation of each folder that contains the app.
+        FOLDERS:
+            * SRC: main root of the app
+                 + COMPONENTS: This folder contains reusable components that we can use for any template
 
-Currently, two official plugins are available:
+                 + ROUTES: Route handler and management of private and public routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+                 + TEMPLATES: This folder will store all the different templates that the Torve app contains.
 
+                 + SRC: 
 
-ABOUT ROUTES:
     
 
-ABOUT TEMPLATE:
-
-    -CUSTOM HOOK
-        *FILTER DATA: the filter data hook has been created for the "free meal APi".
-            Therefore, if you need to use it for another APi. we must modify some line of code for optimal.
-    
-    -TEMPLATES:
-        *
-    
-ABOUT GIT SCHEMA:
-    BRANCH:
-        * 8.1-TEMPLATE-TURISM V0.1: creation of the components with their styles files
-            configurated
 
 
 

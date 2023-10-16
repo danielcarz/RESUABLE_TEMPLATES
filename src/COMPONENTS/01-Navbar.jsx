@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, useNavigate} from "react-router-dom";
 
 //styles
-import '../SASS/COMPONENTS/REUSABLE_COMPONENTS/Navbar.scss';
+import '../SASS/MIXINS/REUSABLE_COMPONENTS/Navbar.scss';
 
 export const Navbar = () => {
 

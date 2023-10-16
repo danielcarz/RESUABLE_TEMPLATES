@@ -1,7 +1,7 @@
 import React, { Children } from "react";
 
 //styles
-import '../../SASS/COMPONENTS/REUSABLE_COMPONENTS/Layout.scss';
+import '../../SASS/MIXINS/REUSABLE_COMPONENTS/Layout.scss';
 
 export const Layout = ({children}) => {
 

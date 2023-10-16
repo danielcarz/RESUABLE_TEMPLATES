@@ -1,5 +1,5 @@
 //VARIABLES (it musb be in the first position)
-@use '../../COMPONENTS/Variables.scss' as *;
+@use '../../MIXINS/Variables.scss' as *;
 
 @mixin InputButton_A () {
     background-color: $InputbackColor;

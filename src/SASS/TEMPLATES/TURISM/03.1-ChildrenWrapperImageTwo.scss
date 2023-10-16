@@ -1,8 +1,8 @@
 //VARIABLES (it musb be in the first position)
-@use '../../COMPONENTS/Variables.scss' as *;
+@use '../../MIXINS/Variables.scss' as *;
 
 //MEDIA
-@import '../../COMPONENTS/MEDIA_QUERIES/MediaQueries.scss';
+@import '../../MIXINS/MEDIA_QUERIES/MediaQueries.scss';
 
 @mixin styles_tablets_and_desktop () {
   border: 1px solid blue;
