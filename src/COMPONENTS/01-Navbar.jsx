@@ -27,8 +27,8 @@ export const Navbar = () => {
     return(
         <nav className="navbar">
             <ul>
-                <NavLink to={"/"}>PageOne</NavLink>
-                <NavLink to={"/two"} className={({isActive}) => `${isActive ? 'active' : ''}`}>PageTWO</NavLink>
+                <NavLink to={"/"}>TEMPLATE ONE</NavLink>
+                <NavLink to={"/two"} className={({isActive}) => `${isActive ? 'active' : ''}`}>TEMPLATE TWO</NavLink>
                 <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : '' }`}>PageThree</NavLink>
                 <NavLink to={"/four"} className={({isActive}) => `${isActive ? 'active' : ''}`}>PageFour</NavLink>
                 
