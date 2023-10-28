@@ -4,25 +4,25 @@ import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 //components
 import { UserProvider ,Navbar} from './'
 
-//Routes
-import {TemplateHome, ColombianCulture } from './';
+//templates
+import {TemplateUNO } from './';
 
 
 export const RoutesHandler = () => {
-
+ 
 
     return(
 
         <UserProvider>
-            <BrowserRouter>
+            <BrowserRouter> 
 
                 <Navbar></Navbar>
 
                 
                 <Routes>
-                    <Route path="/" element={<TemplateHome></TemplateHome>}></Route>
-                    <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
-
+                    <Route path="/" element={<TemplateUNO></TemplateUNO>}></Route>
+{/*                     <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
+ */}
                     
 
                     

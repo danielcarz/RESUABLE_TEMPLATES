@@ -1,7 +1,8 @@
 import React from "react";
 
-//style
-import '../../../SASS/TEMPLATES/TURISM/02.1-AnnouncementParagraph.scss';
+//styles
+import '../../SASS/TEMPLATES/TURISM/02.1-AnnouncementParagraph.scss';
+
 
 
 export const AnnouncementParagraph = () => {

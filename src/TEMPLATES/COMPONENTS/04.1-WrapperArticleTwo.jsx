@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 //style
-import '../../../SASS/TEMPLATES/TURISM/04.1-WrapperArticleTwo.scss';
+import '../../SASS/TEMPLATES/TURISM/04.1-WrapperArticleTwo.scss';
 
 //hook
 import { useContentElement } from "./HOOKS/01-useAddContentElement";
 
 //component
-import {ToggleContentElement} from "../COMPONENTS/REUSABLE_COMPONENTS/04-ToggleContentElement";
+import {ToggleContentElement} from "./REUSABLE_COMPONENTS/";
 
 
 export const ContentElement = () => {

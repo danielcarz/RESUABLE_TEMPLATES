@@ -1,7 +1,7 @@
 //pages
 
-export * from '../TEMPLATES/TURISM/COMPONENTS/PAGES/01-TemplateHome';
-export * from '../TEMPLATES/TURISM/COMPONENTS/PAGES/02-ColombianCulture';
+export * from '../TEMPLATES/PAGES';
+
 
 //components
 export * from '../COMPONENTS/01-Navbar';

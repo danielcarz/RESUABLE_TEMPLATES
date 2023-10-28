@@ -1,10 +1,10 @@
 import React from "react";
 
 //component
-import { ContentElement } from "./04-ToggleContentElement";
+/* import { ContentElement } from "./"; */
 import { useContentElement } from "../HOOKS/01-useAddContentElement";
 
-const CreatingElement = () => {
+export const CreatingElement = () => {
 
     const {onCreateElement, displayed, data} = useContentElement();
 

@@ -1,13 +1,12 @@
 import React from "react";
 
-//style
-import '../../../SASS/TEMPLATES/TURISM/02-AnnouncementButton.scss';
 
-//components
+
+//reusable components
 import { InputButton } from "./REUSABLE_COMPONENTS/01-InputButton";
 
 
-export const AnnouncementButton = ({type, bg}) => {
+export const ContainerSectionONE = ({type}) => {
 
 
     return(
@@ -15,9 +14,10 @@ export const AnnouncementButton = ({type, bg}) => {
             <figure className="warpperImage">
 
 
-            <h1>MEDELLIN</h1>
+            <h1>H1: TITULO PRINCIPAL</h1>
                 
-                <img src={bg} alt="backgroun image"></img>
+                <img alt="backgroun image"></img>
+
                 <InputButton typeButton = {type}></InputButton>
 
 

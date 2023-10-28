@@ -1,16 +1,14 @@
-TEMPLATE TROVE:
+TEMPLATES:
 
-STRUCTURE OF THE APP TROVE:
-    *  Explanation of each folder that contains the app.
-        FOLDERS:
-            * SRC: main root of the app
+ESTRUCTURE OF THE TEMPLATE APP
 
-                 + COMPONENTS: This folder contains reusable components that we can use for any template
+FOLDERS:
+    TEMPLATES:
+        01- ASSETS
 
-                 + ROUTES: Route handler and management of private and public routes.
+        02- COMPONENTS
 
-                 + TEMPLATES: This folder will store all the different templates that the Torve app contains.
+        03- PAGES
+            3.01- TemplateUNO.jsx
 
-                 + SASS:"This folder is the main folder that contains all styles for the Torve app. It's divided into two sections: the TEMPLATES FOLDER, which contains styles for each of the templates, and the COMPONE and MIXIN, which can be used for every template.
-
-NOTE: This app will added New templates periodically.
+            3.02- 

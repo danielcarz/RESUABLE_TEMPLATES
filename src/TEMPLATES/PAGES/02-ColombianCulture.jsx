@@ -1,13 +1,12 @@
 import React from "react";
 
 //components
-import {AnnouncementButton, ChildrenWrapperImage, InputButton, Cards, AnnouncementParagraph} from '../..';
+import {ContainerBoxONE, ChildrenWrapperImage, InputButton, Cards, AnnouncementParagraph} from '../COMPONENTS';
 
 //layout
-import {Layout} from '../..';
+import {Layout} from '../COMPONENTS';
 
 //assets
-import bgimage from  '../../ASSETS/01.3portada.jpg';
 
 export const ColombianCulture = () => {
 
@@ -15,7 +14,7 @@ export const ColombianCulture = () => {
  
         <Layout>
             <h1>ColombianCulture</h1>
-            <AnnouncementButton type="StyleButton_A" bg={bgimage}></AnnouncementButton>
+            <ContainerBoxONE type="StyleButton_A" bg={bgimage}></ContainerBoxONE>
             
             <ChildrenWrapperImage>
 
