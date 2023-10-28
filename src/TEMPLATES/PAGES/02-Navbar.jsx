@@ -1,15 +1,15 @@
 import React, {useContext} from "react";
 import { NavLink, useNavigate} from "react-router-dom";
 
-import {UserContext} from '../COMPONENTS/CONTEXT/01-userContext';
+import {UserContext} from '../../COMPONENTS/CONTEXT/01-userContext';
 
 
 //styles
-import '../SASS/MIXINS/REUSABLE_COMPONENTS/Navbar.scss';
+import '../../SASS/MIXINS/REUSABLE_MIXINS/Navbar.scss';
 
 export const Navbar = () => {
 
-    const {user, outChecking} =  useContext(UserContext);
+ /*    const {user, outChecking} =  useContext(UserContext);
     const navigate = useNavigate();
     
     const onLogOut = () => {
@@ -20,7 +20,7 @@ export const Navbar = () => {
             replace: true
         })
     
-    }
+    } */
   
 
 
@@ -33,12 +33,12 @@ export const Navbar = () => {
                 <NavLink to={"/four"} className={({isActive}) => `${isActive ? 'active' : ''}`}>PageFour</NavLink>
                 
 
-                <div>
+               {/*  <div>
                     <p>{user && user.name}</p>
                     <button to={"/"} onClick={onLogOut} className={({isActive}) => `${isActive ? 'logIn' : 'logOut' }`}>logOut</button>
 
 
-                </div>
+                </div> */}
 
             </ul>
 

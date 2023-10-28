@@ -1,3 +1,9 @@
+/* 
+ESTILOS BOTON: seleciona o edita los estilos del boton en SASS/MIXIN/RESUABLE_MIXINS/Typesbutton.scss
+  -se envia el nombre del boton como prop del comoponente.
+
+*/
+
 import React from "react";
 
 //components
@@ -18,7 +24,7 @@ export const TemplateUNO = () => {
 
                 <h1>TEMPLATE # 1</h1>
 
-                <ContainerSectionONE type="StyleButton_A"></ContainerSectionONE>
+                <ContainerSectionONE typeButton="StyleButton_A"></ContainerSectionONE>
 {/* 
                 <ChildrenWrapperImage>
                     <figure>

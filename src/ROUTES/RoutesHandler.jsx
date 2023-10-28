@@ -2,10 +2,10 @@ import React from "react";
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 
 //components
-import { UserProvider ,Navbar} from './'
+//import { UserProvider } from './'
 
 //templates
-import {TemplateUNO } from './';
+import { Navbar } from '../TEMPLATES/PAGES/02-Navbar';
 
 
 export const RoutesHandler = () => {
@@ -13,14 +13,14 @@ export const RoutesHandler = () => {
 
     return(
 
-        <UserProvider>
+       
             <BrowserRouter> 
 
                 <Navbar></Navbar>
 
                 
                 <Routes>
-                    <Route path="/" element={<TemplateUNO></TemplateUNO>}></Route>
+                    {/* <Route path="/" element={<TemplateUNO></TemplateUNO>}></Route> */}
 {/*                     <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
  */}
                     
@@ -31,7 +31,7 @@ export const RoutesHandler = () => {
 
             </BrowserRouter>
 
-        </UserProvider>
+        
        
         
     )

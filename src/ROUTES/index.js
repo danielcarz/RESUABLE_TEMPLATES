@@ -4,7 +4,7 @@ export * from '../TEMPLATES/PAGES';
 
 
 //components
-export * from '../COMPONENTS/01-Navbar';
+export * from '../TEMPLATES/PAGES/02-Navbar';
 export * from '../COMPONENTS/CONTEXT/02-userProvider';
 
 //context

@@ -5,7 +5,7 @@
 @import '../../MIXINS/MEDIA_QUERIES/MediaQueries.scss';
 
 //mixins
-@import '../../MIXINS/REUSABLE_COMPONENTS/Typesbuttons.scss';
+@import '../../MIXINS/REUSABLE_MIXINS/Typesbuttons.scss';
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-.AnnouncementButton{
+.containerSectionOne{
   display:flex;
   flex-direction: column;
   align-items: center;
