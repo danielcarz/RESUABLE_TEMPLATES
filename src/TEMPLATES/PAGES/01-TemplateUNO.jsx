@@ -24,7 +24,7 @@ export const TemplateUNO = () => {
 
                 <h1>TEMPLATE # 1</h1>
 
-                <ContainerSectionONE typeButton="StyleButton_A"></ContainerSectionONE>
+                <ContainerSectionONE typeButton="StyleButton_B"></ContainerSectionONE>
 {/* 
                 <ChildrenWrapperImage>
                     <figure>
