@@ -1,8 +1,8 @@
 import React from "react";
 
 //style
-import '../../SASS/TEMPLATES/MIXINS/03-ChildrenWrapperImage.scss';
-import '../../SASS/TEMPLATES/MIXINS/03.1-ChildrenWrapperImageTwo.scss';
+import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
+//import '../../SASS/TEMPLATES/MIXINS/03.1-ChildrenWrapperImageTwo.scss';
 
 
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //style
-import '../../SASS/TEMPLATES/MIXINS/04.1-WrapperArticleTwo.scss';
+import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
 
 //hook
 import { useContentElement } from "./HOOKS/01-useAddContentElement";

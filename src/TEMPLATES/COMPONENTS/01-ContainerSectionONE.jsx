@@ -2,7 +2,7 @@ import React from "react";
 
 //styles
 
-import '../../SASS/TEMPLATES/MIXINS/01-ContainerSectionOne.scss';
+import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
 
 
 //reusable components

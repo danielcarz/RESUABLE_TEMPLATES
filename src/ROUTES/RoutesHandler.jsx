@@ -22,8 +22,8 @@ export const RoutesHandler = () => {
 
                 
                 <Routes>
-{/*                     <Route path="/" element={<TemplateUNO></TemplateUNO>}></Route>
- */}{/*                     <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
+                    <Route path="/" element={<TemplateUNO></TemplateUNO>}></Route>
+{/*                     <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
  */}
                     
 

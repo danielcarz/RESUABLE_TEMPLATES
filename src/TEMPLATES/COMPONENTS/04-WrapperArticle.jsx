@@ -1,7 +1,7 @@
 import React from "react";
 
 //style
-import '../../SASS/TEMPLATES/MIXINS/04-WrapperArticle.scss';
+import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
 
 
 export const WrapperArticle = () => {
