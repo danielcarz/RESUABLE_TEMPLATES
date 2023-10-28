@@ -1,8 +1,8 @@
 import React from "react";
 
 //style
-import '../../SASS/TEMPLATES/TURISM/03-ChildrenWrapperImage.scss';
-import '../../SASS/TEMPLATES/TURISM/03.1-ChildrenWrapperImageTwo.scss';
+import '../../SASS/TEMPLATES/MIXINS/03-ChildrenWrapperImage.scss';
+import '../../SASS/TEMPLATES/MIXINS/03.1-ChildrenWrapperImageTwo.scss';
 
 
 

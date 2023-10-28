@@ -2,7 +2,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 //styles
-import '../../../SASS/MIXINS/REUSABLE_COMPONENTS/Cards.scss';
+import '../../../SASS/MIXINS/REUSABLE_MIXINS/Cards.scss';
+
+
 
 
 export  function Cards() {

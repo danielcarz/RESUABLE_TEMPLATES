@@ -1,7 +1,7 @@
 import React from "react";
 
 //styles
-import '../../SASS/TEMPLATES/TURISM/02.1-AnnouncementParagraph.scss';
+import '../../SASS/TEMPLATES/MIXINS/02.1-AnnouncementParagraph.scss';
 
 
 
