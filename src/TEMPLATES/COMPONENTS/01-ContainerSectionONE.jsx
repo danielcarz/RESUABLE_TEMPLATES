@@ -1,7 +1,6 @@
 import React from "react";
 
 //styles
-
 import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
 
 
@@ -14,16 +13,16 @@ export const ContainerSectionONE = ({ typeButton }) => {
 
     return(
        <section className="containerSectionOne">
-       CONTAINER ContainerSectionONE
+       <div>SECTION ONE</div>
             <figure className="warpperImage">
 
             
 
-            <h1>H1: TITULO PRINCIPAL </h1>
-                
-                <img alt="backgroun image"></img>
+                <h1>H1: TITULO PRINCIPAL </h1>
+                    
+                    <img alt="background image"></img>
 
-                <InputButton typeButton = { typeButton }></InputButton>
+                    <InputButton typeButton = { typeButton }></InputButton>
 
 
             </figure>
