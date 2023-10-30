@@ -1,9 +1,15 @@
 import React from "react";
 
-export const Footer = () => {
+//styles
+import '../../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
+
+
+
+
+export const Footer = ({ children }) => {
 
     return (
 
-        <footer>footer</footer>
+        <footer className="footer">{ children }</footer>
     )
 }
