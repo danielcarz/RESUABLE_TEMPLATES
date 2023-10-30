@@ -13,12 +13,12 @@ export const ContainerSectionONE = ({ typeButton }) => {
 
     return(
        <section className="containerSectionOne">
-       <div>SECTION ONE</div>
+       SECTION ONE
             <figure className="warpperImage">
 
             
 
-                <h1>H1: TITULO PRINCIPAL </h1>
+                <h1>H1: TITULO PRINCIPAL DE SECTION ONE </h1>
                     
                     <img alt="background image"></img>
 
