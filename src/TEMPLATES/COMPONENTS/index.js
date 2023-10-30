@@ -1,6 +1,6 @@
-/* //resuable components
+//resuable components
 export * from './REUSABLE_COMPONENTS';
- */
+
 
 //components
 export * from './01-ContainerSectionONE';
@@ -11,5 +11,3 @@ export * from './02.1-AnnuncementParagrhap';
 
 
 
-//layout component
-export * from '../../COMPONENTS/LAYOUT/Layout';

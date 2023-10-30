@@ -7,10 +7,9 @@ ESTILOS BOTON: seleciona o edita los estilos del boton en SASS/MIXIN/RESUABLE_MI
 import React from "react";
 
 //components
-import {ContainerSectionONE, ChildrenWrapperImage, WrapperArticle, ContentElement, AnnouncementParagraph} from '../COMPONENTS';
+import {Layout, ContainerSectionONE, ChildrenWrapperImage, WrapperArticle, ContentElement, AnnouncementParagraph} from '../COMPONENTS';
 
-//layout
-import {Layout} from '../COMPONENTS';
+
 
 export const TemplateUNO = () => {
 
