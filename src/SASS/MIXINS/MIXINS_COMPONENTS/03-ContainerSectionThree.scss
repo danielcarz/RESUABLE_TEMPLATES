@@ -39,12 +39,10 @@
   
 
 
-  height: 35vh;
+  height: auto;
   margin: 0 auto;
 
   padding: 20px;
-
-  
 
   border: 1px solid rgb(6, 70, 245);
   background-color: rgb(229, 243, 149);
@@ -120,7 +118,7 @@
 
 @mixin styles_desktop () {
   
-  height: 30vh;
+  height: auto;
   margin: 0 auto;
   padding: 10px;
   
@@ -134,7 +132,7 @@
   figure{
 
     width: 100%;
-    height: auto;
+    height: 300px;
     
     padding: 10px;
 

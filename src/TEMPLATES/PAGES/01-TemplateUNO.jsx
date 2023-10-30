@@ -7,7 +7,7 @@ ESTILOS BOTON: seleciona o edita los estilos del boton en SASS/MIXIN/RESUABLE_MI
 import React from "react";
 
 //components
-import {Layout, ContainerSectionONE, ContainerSectionThree, WrapperArticle, ContentElement, AnnouncementParagraph} from '../COMPONENTS';
+import {Layout, ContainerSectionONE, ContainerSectionThree, ContainerSectionFour, ContentElement, AnnouncementParagraph} from '../COMPONENTS';
 
 
 
@@ -25,16 +25,19 @@ export const TemplateUNO = () => {
 
                 <ContainerSectionONE typeButton="StyleButton_B"></ContainerSectionONE>
 
+                
+                
                 <ContainerSectionThree>
                 SECTION THREE
                     <figure>
-                    
+                    figure tag
                         <img alt="picture"></img>
                         <img alt="picture"></img>
                     </figure>
                 </ContainerSectionThree>
 
-              {/*   <WrapperArticle></WrapperArticle> */}
+                <ContainerSectionFour>SECTION FOUR</ContainerSectionFour>
+                
                 {/* <ContentElement></ContentElement> */}
                 {/* <AnnouncementParagraph></AnnouncementParagraph> */}
 
