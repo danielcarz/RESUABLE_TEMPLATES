@@ -1,19 +1,19 @@
 /* 
 ESTILOS BOTON: seleciona o edita los estilos del boton en SASS/MIXIN/RESUABLE_MIXINS/Typesbutton.scss
-  -se envia el nombre del boton como prop del comoponente.
+  -se envia el nombre del boton como prop al comoponente.
 
 */
 
 import React from "react";
 
 //components
-import {Layout, ContainerSectionONE, ContainerSectionThree, ContainerSectionFour, ContentElement, AnnouncementParagraph} from '../COMPONENTS';
+import {Layout, ContainerSectionONE, ContainerSectionThree, ContainerSectionFour, ContentElement, } from '../COMPONENTS';
 
 
 
 export const TemplateUNO = () => {
 
-
+ 
     return(
 
    
@@ -37,7 +37,7 @@ export const TemplateUNO = () => {
                 </ContainerSectionThree>
 
                 <ContainerSectionFour>SECTION FOUR</ContainerSectionFour>
-                
+
                 {/* <ContentElement></ContentElement> */}
                 {/* <AnnouncementParagraph></AnnouncementParagraph> */}
 

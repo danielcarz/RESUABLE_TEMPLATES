@@ -7,7 +7,7 @@ import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 //templates
 import { Navbar } from '../TEMPLATES/PAGES/02-Navbar';
 
-import { TemplateUNO } from '../TEMPLATES/PAGES/01-TemplateUNO';
+import { TemplateUNO, TemplateDOS } from '../TEMPLATES/PAGES/index.js';
 
 
 export const RoutesHandler = () => {
@@ -23,8 +23,8 @@ export const RoutesHandler = () => {
                 
                 <Routes>
                     <Route path="/" element={<TemplateUNO></TemplateUNO>}></Route>
-{/*                     <Route path="/two" element={<ColombianCulture></ColombianCulture>}></Route>
- */}
+                    <Route path="/two" element={<TemplateDOS></TemplateDOS>}></Route>
+
                     
 
                     

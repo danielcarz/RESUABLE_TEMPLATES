@@ -1,22 +1,22 @@
 import React from "react";
 
 //components
-import {ContainerBoxONE, ChildrenWrapperImage, InputButton, Cards, AnnouncementParagraph} from '../COMPONENTS';
+import { ContainerSectionFIVE } from '../COMPONENTS/index';
 
 //layout
 import {Layout} from '../COMPONENTS';
 
 //assets
 
-export const ColombianCulture = () => {
+export const TemplateDOS = () => {
 
     return(
  
         <Layout>
-            <h1>ColombianCulture</h1>
-            <ContainerBoxONE type="StyleButton_A" bg={bgimage}></ContainerBoxONE>
+            <h1>TEMPLATE # 2</h1>
+           <ContainerSectionFIVE></ContainerSectionFIVE>
             
-            <ChildrenWrapperImage>
+            {/* <ChildrenWrapperImage>
 
                 <div className="infoWrapper">
                     <p>text about something</p>
@@ -26,8 +26,8 @@ export const ColombianCulture = () => {
                    
                     <img className="image" alt="picture"></img>
                 </figure>
-            </ChildrenWrapperImage>
-            <Cards></Cards>
+            </ChildrenWrapperImage> */}
+          {/*   <Cards></Cards>  */}
            
         </Layout>
     )

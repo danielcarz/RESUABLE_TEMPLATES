@@ -5,7 +5,7 @@ import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
 
 
 
-export const AnnouncementParagraph = () => {
+export const ContainerSectionTWO = () => {
 
 
     return(

@@ -6,3 +6,5 @@ export * from './03-ToggleInfo';
 export * from './04-ToggleContentElement';
 export * from './05-Card';
 export * from './06-Layout.jsx';
+
+export * from './07-Footer';
