@@ -22,7 +22,8 @@
     background-color: #f59f77;
 
     .column{
-        flex: 1; /* Hace que todas las columnas tengan el mismo ancho */
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         
 
@@ -48,8 +49,9 @@
         width: 100%;
         padding: 5px;
     
-        display: flex;
-        justify-content: space-between;
+        display: flex !important;
+        justify-content: space-around;
+        flex-direction: row;
         align-items: center;
 
         border: 1px solid yellow;
@@ -73,6 +75,12 @@
     }
 
     .clase4{
+
+        display: flex !important;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+
         border: 1px solid yellow;
         background-color: rgb(245, 245, 148);
 
@@ -92,8 +100,8 @@
 
     width: 100%;
 
-    border: 1px solid rgb(233, 31, 4);
-    background-color: #f59f77;
+    border-radius: 15px solid blue;
+    background-color: rgb(135, 150, 240);
 
     .column{
         flex: 1; /* Hace que todas las columnas tengan el mismo ancho */
@@ -103,8 +111,9 @@
         padding: 5px;
         margin: 0 auto;
 
-        border-radius: 15px solid rgb(65, 231, 14);
-        background-color: rgb(196, 235, 186);
+        border-radius: 15px solid blue;
+        background-color: rgb(135, 150, 240);
+
  
 
             
@@ -112,7 +121,6 @@
 
     .clase1{
         border: 1px solid yellow;
-        background-color: rgb(245, 245, 148);
         
 
     }
@@ -126,14 +134,13 @@
         align-items: center;
 
         border: 1px solid yellow;
-        background-color: rgb(245, 245, 148);
+
         
     };
 
     .clase3{
 
         border: 1px solid yellow;
-        background-color: rgb(245, 245, 148);
 
         .wrapperSocialMedia{
             figure{
@@ -146,9 +153,8 @@
     }
 
     .clase4{
+        
         border: 1px solid yellow;
-        background-color: rgb(245, 245, 148);
-
 
     }
 
@@ -223,18 +229,8 @@
 
 }
 
-.footer{
+Footer{
    
- 
-   
-
-    .clase1{
-        background-color: #f8d7da;
-    }
-
-    
-
-
   
   .StyleButton_A{
     @include InputButton_A();

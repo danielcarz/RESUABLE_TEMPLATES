@@ -3,6 +3,9 @@ import React from "react";
 //component
 import {Footer} from './index';
 
+//styles
+import '../../SASS/MIXINS/MIXINS_COMPONENTS/05-ContainerSectionFIVE.scss';
+
 
 
 export const ContainerSectionFIVE = () => {
@@ -11,6 +14,7 @@ export const ContainerSectionFIVE = () => {
     return(
 
         <Footer>
+        
             <div class="column clase1">
 
                 <section>

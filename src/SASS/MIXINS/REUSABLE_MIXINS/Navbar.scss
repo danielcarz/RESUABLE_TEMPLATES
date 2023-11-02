@@ -7,60 +7,178 @@
 
 
 @mixin styles_phone () {
-  border: 1px solid yellow;
+  font-size: 30px;
 
+
+  border-radius: 15px solid rgb(65, 231, 14);
+  background-color: rgb(196, 235, 186);
+
+  
   ul{
-
+   
     width: 100%;
-
+    list-style: none;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 
-    border: 1px solid green;
+    border: 1px solid yellow;
+    background-color: rgb(245, 245, 148);
+
+    figure{
+
+      width: 100px;
+      height: 50px;
+      border: 1px solid yellow;
+
+      img{
+        width: auto;
+        height: auto;
+      }
+    }
 
     a{
-
+      
       text-decoration: none;
-      color: red;
+      display: flex;
 
-      border: 1px solid purple;
+      border: 1px solid orange;
+
+      
+      
+    
 
     }
 
+  }
+  // Navbar.scss
 
+   
+  .active{
+    color :red;
+    font-weight: bold;
+  }
+
+  .logIn{
+    border: 1px solid green;
+  }
+
+  .logOut{
+    border: 1px solid red;
   }
 
   
 }
 
 @mixin styles_tablets () {
-  border: 1px solid blue;
   
-
-  .active{
-    background-color: coral;
-    font-weight: bold;
-  }
-}
-
-@mixin styles_desktop () {
-  border: 1px solid red;
   font-size: 30px;
+
+
+  border-radius: 15px solid blue;
+  background-color: rgb(135, 150, 240);
 
   
   ul{
    
-    width: 50%;
+    width: 100%;
     list-style: none;
-    padding: 0;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 
-    border: 1px solid purple;
+    border: 1px solid yellow;
+    background-color: rgb(245, 245, 148);
+
+    figure{
+
+      width: 100px;
+      height: 50px;
+      border: 1px solid yellow;
+
+      img{
+        width: auto;
+        height: auto;
+      }
+    }
+
     a{
       
       text-decoration: none;
       display: flex;
+
+      border: 1px solid orange;
+
+      
+      
+    
+
+    }
+
+  }
+  // Navbar.scss
+
+   
+  .active{
+    color :red;
+    font-weight: bold;
+  }
+
+  .logIn{
+    border: 1px solid green;
+  }
+
+  .logOut{
+    border: 1px solid red;
+  }
+
+
+}
+
+@mixin styles_desktop () {
+
+  
+  
+  font-size: 30px;
+
+
+  border: 1px solid rgb(233, 31, 4);
+  background-color: #f59f77;
+
+  
+  ul{
+   
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid yellow;
+    background-color: rgb(245, 245, 148);
+
+    figure{
+
+      width: 100px;
+      height: 50px;
+      border: 1px solid yellow;
+
+      img{
+        width: auto;
+        height: auto;
+      }
+    }
+
+   
+
+    a{
+      
+      text-decoration: none;
+      display: flex;
+
+      border: 1px solid orange;
+
+      
       
     
 
@@ -90,6 +208,8 @@
 
 
 .navbar{
+
+
   @include media-query($media_phone){
     @include styles_phone();
   }

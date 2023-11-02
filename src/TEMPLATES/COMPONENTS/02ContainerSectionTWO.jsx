@@ -9,9 +9,13 @@ export const ContainerSectionTWO = () => {
 
 
     return(
-        <figure className="AnnouncementParagraph">
+        <figure className="containerSectionTwo">
             <p>text about some information</p>
-            <img alt="backgrounPicture"></img>
+            
+            <figure>
+                <img alt="backgrounPicture"></img>
+
+            </figure>
         </figure>
     )
 }

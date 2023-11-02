@@ -1,12 +1,12 @@
 import React from "react";
 
 //components
-import { ContainerSectionFIVE } from '../COMPONENTS/index';
+import { ContainerSectionTWO, ContainerSectionFIVE } from '../COMPONENTS/index';
 
 //layout
 import {Layout} from '../COMPONENTS';
 
-//assets
+
 
 export const TemplateDOS = () => {
 
@@ -14,10 +14,9 @@ export const TemplateDOS = () => {
  
         <Layout>
             <h1>TEMPLATE # 2</h1>
-           <ContainerSectionFIVE>
+           <ContainerSectionFIVE> </ContainerSectionFIVE>
 
-                
-           </ContainerSectionFIVE>
+           <ContainerSectionTWO> </ContainerSectionTWO>
             
             {/* <ChildrenWrapperImage>
 
@@ -30,7 +29,7 @@ export const TemplateDOS = () => {
                     <img className="image" alt="picture"></img>
                 </figure>
             </ChildrenWrapperImage> */}
-          {/*   <Cards></Cards>  */}
+         
            
         </Layout>
     )
